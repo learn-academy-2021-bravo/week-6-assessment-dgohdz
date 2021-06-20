@@ -54,6 +54,10 @@ method="DELETE" /students/2      destroy a specific student
 
 As the consumer of the API, I want to see validation errors if my to do list doesn't include a time and date
 
+In my API, I want to see validation errors if my to do list doesn't have a name.
+
+I want to see validation errors if I am unable to add a task to my to do list.
+
 In my API, I want to see validation errors if my to do list doesn't have a name for each task.
 
 I want to see validation errors if my to do list repeats a task
@@ -64,6 +68,8 @@ I want to see validation errors if my to do list doesn't remove a task when canc
 
 I want to see validation errors if i can't set reminders in my to do list.
 
-I want to see validation errors if I am unable to add a task to my to do list.
+I want to see validation errors if my to do list can't add a date
+
+I want to see validation errors if my to do list can't update the date
 
 I want to see a status code of 422 when a post request can not be completed because of validation errors.
